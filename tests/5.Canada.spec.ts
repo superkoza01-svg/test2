@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Can', async ({ page }) => {
   test.slow();
   await page.goto('https://practice.expandtesting.com/autocomplete');
   const resultLocator = page.locator('#result');

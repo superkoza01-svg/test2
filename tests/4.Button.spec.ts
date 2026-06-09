@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Button', async ({ page }) => {
   test.slow();
   await page.goto('https://practice.expandtesting.com/key-presses');
   const resultLocator = page.locator('#result');
